@@ -41,7 +41,7 @@ let dataGlasses = [
  }
  testKinh();
 
-let glass = dataGlasses[1].virtualImg;
+let glass = dataGlasses[0].virtualImg;
 let pickingColor = document.getElementsByClassName("d-block");
 for (let i = 0; i < pickingColor.length; i++) {
     pickingColor[i].onclick = () => {
